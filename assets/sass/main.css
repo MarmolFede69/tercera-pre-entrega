@@ -1,0 +1,236 @@
+.contenido-1, .tabla-tiempos, .form, .contenido-2 {
+  grid-area: cont1;
+  width: 90%;
+  margin: 20px auto;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #2F343A;
+  color: #41AAC4;
+  box-shadow: 5px 5px 10px black;
+  text-align: center;
+  font-weight: bold;
+}
+
+.contenido-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.video__inicio,
+.widget1__img,
+.widget2__img {
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px black;
+}
+
+.video__inicio, .widget1__img,
+.widget2__img {
+  grid-area: vid;
+  padding: 10px;
+  width: 90%;
+  border-radius: 20px;
+}
+
+.widget1__img,
+.widget2__img {
+  height: auto;
+}
+
+.widget1__img {
+  grid-area: img1;
+}
+
+.widget2__img {
+  grid-area: img2;
+}
+
+.carousel-galeria, .video-galeria-1,
+.video-galeria-2 {
+  width: 90%;
+  margin: 20px auto;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #2F343A;
+  color: #41AAC4;
+  box-shadow: 5px 5px 10px black;
+}
+
+.video-galeria-1,
+.video-galeria-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.contenedor-pasoApaso {
+  width: 90%;
+  margin: 20px auto;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #2F343A;
+  color: #41AAC4;
+  box-shadow: 5px 5px 10px black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.carousel-1 {
+  background-color: #575D5D;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid rgb(0, 0, 0);
+}
+
+.carousel-2 {
+  background-color: #5F8888;
+  padding: 20px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 10px;
+}
+
+.carousel-3 {
+  background-color: #82B8B8;
+  padding: 20px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 10px;
+}
+
+.carousel-4 {
+  background-color: #D1E9E9;
+  padding: 20px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 10px;
+}
+
+.tabla-tiempos {
+  border: 2px solid rgb(0, 0, 0);
+}
+
+.titulo-tabla {
+  font-size: 25px;
+  font-weight: bold;
+  background-color: #5F8888;
+  border: 2px solid #5a5a5a;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.cuerpo-tabla {
+  width: 100%;
+  margin: 30px auto;
+  border: 3px solid black;
+  border-radius: 10px;
+  background-color: #82B8B8;
+  color: #5a5a5a;
+}
+
+.cuerpo-tabla__tr,
+.cuerpo-tabla__tr__td {
+  border: 3px solid black;
+}
+
+.cuerpo-tabla__tr__td__img {
+  width: 100%;
+  height: 120px;
+}
+
+/* footer */
+.pie-pag {
+  grid-area: pie;
+  background-color: #2F343A;
+  width: 90%;
+  margin: 20px auto;
+  border-radius: 10px;
+  padding: 20px;
+  color: #41AAC4;
+  text-align: center;
+  font-weight: bold;
+  box-shadow: 5px 5px 10px black;
+}
+
+.pag__redes {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 427px) {
+  .pag__redes {
+    flex-direction: column;
+  }
+}
+.pag__redes__link {
+  font-size: 25px;
+  align-self: center;
+  text-decoration: none;
+  font-weight: bold;
+  color: #41AAC4;
+}
+
+.pag__redes__link:hover, .pag__redes__link__img:hover {
+  color: brown;
+  font-size: 20px;
+  height: 50px;
+}
+
+.pag__redes__link__img {
+  margin: 10px auto;
+  height: 60px;
+  padding: 0px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* Nav-bar */
+.nav-bar {
+  grid-area: nav;
+  width: 90%;
+  margin: 20px auto;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #2F343A;
+  color: #41AAC4;
+  box-shadow: 5px 5px 10px black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.nav-bar__logo-fiat {
+  height: 120px;
+}
+
+.nav-bar__item {
+  margin: 20px;
+  align-self: center;
+}
+
+.nav-bar__item__link {
+  text-decoration: none;
+  color: #41AAC4;
+  font-size: 30px;
+  padding: 10px;
+  margin: auto;
+}
+
+.nav-bar__item__link:hover {
+  background-color: #717D8C;
+  color: #e1e1e1;
+  border-radius: 10px;
+}
+
+.contenedor-supremo {
+  width: 100vw;
+  height: 100%;
+  background-color: #717D8C;
+}/*# sourceMappingURL=main.css.map */

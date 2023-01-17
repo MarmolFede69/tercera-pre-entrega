@@ -1,0 +1,49 @@
+@use '_commons' as c;
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* Nav-bar */
+
+.nav-bar {
+    grid-area: nav;
+    width: c.$ancho;
+    margin: c.$margen;
+    border-radius: c.$redondeado;
+    padding: c.$padding;
+    background-color: c.$contenedor;
+    color: c.$fuente-principal;
+    box-shadow: c.$sombra;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.nav-bar__logo-fiat {
+    height: 120px;
+}
+
+.nav-bar__item {
+    margin: 20px;
+    align-self: center;
+}
+
+.nav-bar__item__link {
+    text-decoration: none;
+    color: c.$fuente-principal;
+    font-size: c.$fuente-nav;
+    padding: 10px;
+    margin: auto;
+}
+
+.nav-bar__item__link:hover {
+    background-color: c.$fondo-hover;
+    color: c.$fuente-hover;
+    border-radius: c.$redondeado;
+}
+

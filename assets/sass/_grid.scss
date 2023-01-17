@@ -1,0 +1,7 @@
+@use '_commons' as c;
+
+.contenedor-supremo{
+    width: 100vw;
+    height: 100%;
+    background-color: c.$fondo;
+}
